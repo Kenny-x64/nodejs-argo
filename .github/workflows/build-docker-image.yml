@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/kenny-x64/nodejs:latest
+            ghcr.io/kenny-x64/llsmb:latest
           labels: |
             org.opencontainers.image.source=https://github.com/kenny-x64
             org.opencontainers.image.description=HTTP Server
